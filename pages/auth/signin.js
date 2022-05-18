@@ -15,7 +15,7 @@ function SignIn({ providers }) {
                   <div key={provider.name}>
                     <button
                       className="transform cursor-pointer rounded-lg p-3 font-semibold text-blue-400 transition duration-200 ease-out hover:scale-110 hover:border-4 hover:border-blue-400 hover:bg-blue-50"
-                      onClick={() => signIn(provider.id, { callbackUrl: "/" })}
+                      onClick={() => signIn(provider.id, { callbackUrl: "https://instagram-clone-zeta-two.vercel.app/" })}
                     >
                       Sign in with {provider.name}
                     </button>
